@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DevFolio - Developer Portfolio Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Existing head content -->
+        <style>
+            .loading-screen {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #2563EB;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+                animation: fadeOut 1.5s forwards 1s;
+            }
+            
+            .loading-logo {
+                animation: scaleUp 1s ease-out;
+                max-width: 300px;
+            }
+
+            @keyframes fadeOut {
+                from { opacity: 1; }
+                to { opacity: 0; visibility: hidden; }
+            }
+
+            @keyframes scaleUp {
+                0% { transform: scale(0.8); opacity: 0; }
+                100% { transform: scale(1); opacity: 1; }
+            }
+        </style>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <div class="loading-screen">
+            <img src="img/StratpointLogoWhite.png" alt="Loading" class="loading-logo">
+        </div>
+        
+        <!-- Nav Bar Start -->
+        <div class="navbar navbar-expand-lg bg-light navbar-light">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/StratpointLogoWhite.png" alt="Stratpoint Logo" style="height: 50px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto">
+                        <a href="#home" class="nav-item nav-link">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#service" class="nav-item nav-link">Service</a>
+                        <a href="#experience" class="nav-item nav-link">Experience</a>
+                        <a href="#blog" class="nav-item nav-link">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Nav Bar End -->
+
+
+        <!-- Hero Start -->
+        <div class="hero" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="hero-content">
+                            <div class="hero-text">
+                                <p>Hello, I'm</p>
+                                <h1>Kayne Rodrigo</h1>
+                                <h2></h2>
+                                <div class="typed-text">Aspiring DevOps Engineer, Aspiring True 10x Engineer</div>
+                            </div>
+                            <div class="hero-btn">
+                                <a class="btn" href="https://www.linkedin.com/in/kayne-rodrigo-746b98252/">LinkedIn</a>
+                                <a class="btn" href="https://drive.google.com/file/d/1aCdaRdK5TGlC1Sb_Wtw89TgE1vcNfdm6/view?usp=sharing">Curriculum Vitae</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-none d-md-block">
+                        <div class="hero-image">
+                            <img src="img/hero.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- About Start -->
+        <div class="about wow fadeInUp" data-wow-delay="0.1s" id="about">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img">
+                            <img src="img/about.jpg" alt="Image">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-content">
+                            <div class="section-header text-left">
+                                <p>Learn About Me</p>
+                                <h2>2 Years Project Experience</h2>
+                            </div>
+                            <div>
+                                <img src="img/certs.png" alt="Certifications" style="max-width: 100%; height: auto; margin: 20px 0;">
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    Kayne Rodrigo is a 4th-year BS Computer Science student at Pamantasan ng Lungsod ng Maynila (PLM). In 2025, he serves as an Cloud Intern at Stratpoint Technologies and IT Intern at Tutorials Dojo and a Data & Impact Junior Mission Specialist at KadaKareer. He actively contributes to the student tech community by being a student tech lead at AWS Cloud Club Haribon.
+                                </p>
+                            </div>
+                            <div class="skills">
+                                <div class="skill-name">
+                                    <p>ML Engineering / Research</p><p>85%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Cloud Engineering / DevOps</p><p>80%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Data Science / Analytics</p><p>75%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="skill-name">
+                                    <p>Backend Web Development</p><p>70%</p>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        
+        <!-- Service Start -->
+        <div class="service" id="service">
+            <br><br>
+            <div class="container">
+                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>What I do</p>
+                    <h2>Innovative Quality Services</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-robot"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>ML Engineering / Research</h3>
+                                <p>
+                                    Intermediate machine learning engineering experience, computer vision algorithms (Scopus-indexed), and continuous AI education through co-authored eBooks, specializing in developing and deploying scalable ML solutions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-microchip"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Cloud Engineering / DevOps</h3>
+                                <p>
+                                    Intermediate Cloud Engineering experience, deploying on-premise solutions into the cloud.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-chart-bar"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Data Science / Analytics</h3>
+                                <p>
+                                    Intermediate experience in Data Science, having experience in performing a complete Data Lifecycle for having actionable insights.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fa fa-code"></i>
+                            </div>
+                            <div class="service-text">
+                                <h3>Backend Development</h3>
+                                <p>
+                                    Worked with Backend Web Development Projects which includes Laravel, Django, and React Framework.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Service End -->
+        
+        
+         <!-- Experience Start -->
+        <div class="experience" id="experience">
+            <div class="container">
+                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                    <p>My Resume</p>
+                    <h2>Working Experience</h2>
+                </header>
+                <div class="timeline">
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">February 2025 - Present</div>
+                            <h2>Cloud Intern</h2>
+                            <h4>Stratpoint Technologies, Philippines</h4>
+                            <p>
+                                Leveraged AWS Cloudformation for IoC tasks. Had an experience in utilizing Terraforms as another method of Infrastructure as a Code.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">October 2024 - Present</div>
+                            <h2>IT Intern</h2>
+                            <h4>Tutorials Dojo, Singapore</h4>
+                            <p>
+                                Developed cloud applications and solutions for Tutorials Dojo, enhancing the company's technological capabilities. Also created technical articles on cloud computing to educate and engage the audience. Co-author of the upcoming eBook reviewer for AWS AI Cloud Practitioner under Tutorials Dojo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">June 2024 - December 2024</div>
+                            <h2>Data and Impact Junior Mission Specialist</h2>
+                            <h4>KadaKareer, Philippines</h4>
+                            <p>
+                                Assigned as a data developer for the organization’s Google Drive to centralize the important files using Retool and Python.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">July 2024 - August 2024</div>
+                            <h2>Data Science Intern</h2>
+                            <h4>S.P. Madrid & Associates Law Firm, Philippines</h4>
+                            <p>
+                                Performed Data Extraction, Data Preprocessing, Exploratory Data Analysis Created a KPI prediction analysis using XGBoost. Lastly, consolidated machine learning into a single ML Pipeline for production-level use.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">November 2022 - December 2022</div>
+                            <h2>Data Virtual Apprentice</h2>
+                            <h4>KadaKareer, Philippines</h4>
+                            <p>
+                                Performed data analysis on the given inventory record. Performed data cleaning, data forecasting, and data visualization using MS Excel. Also created a dashboard for the Inventory Sales Management of Iceberg Insulated Flasks.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
+                        <div class="timeline-text">
+                            <div class="timeline-date">August 2021 - October 2021</div>
+                            <h2>Digital Marketing Intern</h2>
+                            <h4>Synthillate, South Korea</h4>
+                            <p>
+                                Created business pub mats for the company’s investors using Photoshop. Also led the web scraping project for the company’s database using MS Excel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Job Experience End -->
+        
+    
+
+
+        <!-- Blog Start -->
+        <div class="blog" id="blog">
+            <br><br>
+            <div class="container">
+            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                <p>From Blog</p>
+                <h2>Latest Articles</h2>
+            </div>
+            <div class="row">
+                <!-- Blog Card 1 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="card blog-item h-100">
+                    <img src="https://td-mainsite-cdn.tutorialsdojo.com/wp-content/uploads/2025/01/Deepseek-Thumbnail.png" class="card-img-top" alt="Deepseek Blog">
+                    <div class="card-body blog-text">
+                    <h5 class="card-title">Deepseek in Amazon Bedrock: A Comprehensive Demo</h5>
+                    <div class="blog-meta">
+                        <p><i class="far fa-user"></i> Kayne Rodrigo</p>
+                        <p><i class="far fa-list-alt"></i> AWS AI/ML and Security</p>
+                        <p><i class="far fa-calendar-alt"></i> December-2024</p>
+                    </div>
+                    <p class="card-text">A comprehensive demonstration of Deepseek integration with Amazon Bedrock, showcasing its capabilities and implementation.</p>
+                    <a href="https://tutorialsdojo.com/deepseek-in-amazon-bedrock-a-comprehensive-demo/" class="btn">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="card blog-item h-100">
+                    <img src="https://td-mainsite-cdn.tutorialsdojo.com/wp-content/uploads/2024/11/Data-Engineering-Security-1.png" class="card-img-top" alt="AWS Security Blog">
+                    <div class="card-body blog-text">
+                    <h5 class="card-title">Security in AWS Data Engineering: Best Practices and Strategies</h5>
+                    <div class="blog-meta">
+                        <p><i class="far fa-user"></i> Kayne Rodrigo</p>
+                        <p><i class="far fa-list-alt"></i> AWS Security</p>
+                        <p><i class="far fa-calendar-alt"></i> November-2024</p>
+                    </div>
+                    <p class="card-text">Explore best practices and strategies for securing your data engineering workflows in AWS.</p>
+                    <a href="https://tutorialsdojo.com/security-in-aws-data-engineering-best-practices-and-strategies/" class="btn">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="card blog-item h-100">
+                    <img src="https://td-mainsite-cdn.tutorialsdojo.com/wp-content/uploads/2024/11/PartyRock-AI-Python-Code-Checker.png" class="card-img-top" alt="PartyRock AI Blog">
+                    <div class="card-body blog-text">
+                    <h5 class="card-title">PartyRock AI: Python Code Checker for Tech Interview Simulation</h5>
+                    <div class="blog-meta">
+                        <p><i class="far fa-user"></i> Kayne Rodrigo</p>
+                        <p><i class="far fa-list-alt"></i> AWS AI/ML</p>
+                        <p><i class="far fa-calendar-alt"></i> October-2024</p>
+                    </div>
+                    <p class="card-text">Learn how to use PartyRock AI as a Python code checker for technical interview preparation.</p>
+                    <a href="https://tutorialsdojo.com/partyrock-ai-python-code-checker-for-tech-interview-simulation/" class="btn">Read More <i class="fa fa-angle-right"></i></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+
+        <!-- Footer Start -->
+        <br/>
+        <br/>
+        <br/>
+        <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container-fluid">
+            <div class="container">
+                <div class="footer-info">
+                <h2>Kayne Uriel Rodrigo</h2>
+                <h3>Manila, Philippines</h3>
+                <div class="footer-menu">
+                    <p>kayne.rodrigo11@gmail.com</p>
+                </div>
+                </div>
+            </div>
+            <div class="container copyright">
+                <p>&copy; <a href="#">Your Site Name</a>, All Right Reserved | 
+                        
+                        <!--/*** This template is free as long as you keep the footer author's credit link/attribution link/backlink. If you'd like to use the template without the footer author's credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+        <!-- Back to top button -->
+        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
